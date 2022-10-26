@@ -1,0 +1,54 @@
+nav{
+    width:90%;
+    height:120px;
+    background-color: purple;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+
+
+}
+
+
+body{
+    height:1500px;
+    background-color: #eee;
+
+}
+
+@media screen and (max-width:715px;) {
+
+ul{
+    flex-direction:column;
+    width:80%;
+    height:85%;
+}
+
+li a{
+    text-decoration:none;
+    color:violet;
+
+
+}
+
+li a:hover{
+    color:white;
+
+}
+
+#navbar1{
+    width:100%;
+    position:fixed;
+}
+
+#navbar2{
+    position:relative;
+    top:300px;
+}
+
+#navbar3{
+    position:absolute;
+    bottom:150px;
+    
+}
